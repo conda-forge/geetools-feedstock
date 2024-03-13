@@ -1,5 +1,5 @@
 {% set name = "geetools" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geetools-{{ version }}.tar.gz
-  sha256: 776d29c1bd0da6484cfb26cb40a2a2645be433c7a69c230657113e98dc6774b9
+  sha256: 2a2ebf2c5cb768e4cdcf6d3d19f19c90e340b746a0cf3a428cb54e45d35c6d91
 
 build:
   noarch: python
@@ -28,6 +28,7 @@ requirements:
     - deprecated
     - ee_extra
     - xee
+    - yamlable
 
 test:
   imports:
