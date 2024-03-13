@@ -29,6 +29,7 @@ requirements:
     - ee_extra
     - xee
     - yamlable
+    - matplotlib
 
 test:
   imports:
