@@ -28,6 +28,7 @@ requirements:
     - deprecated
     - ee_extra
     - xee
+    - yamlable
 
 test:
   imports:
