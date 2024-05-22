@@ -30,6 +30,7 @@ requirements:
     - xee
     - yamlable
     - matplotlib
+    - anyascii
 
 test:
   imports:
