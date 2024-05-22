@@ -21,13 +21,13 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - earthengine-api
+    - earthengine-api >=0.1.397
     - requests
     - pandas
     - geopandas
     - deprecated
     - ee_extra
-    - xee
+    - xee >=0.0.11
     - yamlable
     - matplotlib
     - anyascii
