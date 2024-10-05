@@ -29,7 +29,7 @@ requirements:
     - ee_extra
     - xee >=0.0.11
     - yamlable
-    - matplotlib
+    - matplotlib-base
     - anyascii
 
 test:
