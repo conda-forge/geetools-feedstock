@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - hatchling
     - pip
   run:
-    - python >=3.8
-    - earthengine-api >=0.1.397
+    - python >=3.9
+    - earthengine-api >=1
     - requests
     - pandas
     - geopandas
