@@ -1,5 +1,5 @@
 {% set name = "geetools" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geetools-{{ version }}.tar.gz
-  sha256: a4860d1a46b723cd6768864942ed92a6ba5dfa45db018cc8981085286e749c39
+  sha256: 0785b23abc03d1d50e49360bffae0771e40e3ae200db59fcca5fecb06bcf8a1d
 
 build:
   noarch: python
