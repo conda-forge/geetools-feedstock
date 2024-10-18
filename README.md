@@ -3,7 +3,7 @@ About geetools-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geetools-feedstock/blob/main/LICENSE.txt)
 
-Home: https://gee-tools.readthedocs.io
+Home: https://geetools.readthedocs.io
 
 Package license: MIT
 
