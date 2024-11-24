@@ -34,12 +34,11 @@ requirements:
     - anyascii
 
 test:
+  python:
+    - python {{ python_min }}
   imports:
     - geetools
-  #commands:
-  #  - pip check
   requires:
-    - python >={{ python_min }}
     - pip
 
 about:
