@@ -27,7 +27,6 @@ requirements:
     - pandas
     - geopandas
     - deprecated
-    - ee_extra
     - xee >=0.0.11
     - yamlable
     - matplotlib-base
