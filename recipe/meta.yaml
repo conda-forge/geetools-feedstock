@@ -1,5 +1,5 @@
 {% set name = "geetools" %}
-{% set version = "1.17.2" %}
+{% set version = "1.17.3" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/geetools-{{ version }}.tar.gz
-  sha256: d6382876d7b327aa3caf28e31dbd6915c946c090ac2cf643bf620655907b5656
+  sha256: e8772e390d30d9096452847fabb1f45ad2ba71ca260a29dda1f27d811885603b
 
 build:
   noarch: python
