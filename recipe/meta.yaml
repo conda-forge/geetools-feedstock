@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - earthengine-api >=1
+    - earthengine-api >=1.6.12
     - requests
     - pandas
     - geopandas
